@@ -1,0 +1,6 @@
+{
+  "name": "FileSentinel",
+  "description": "Real-time directory synchronization for effortless backup — local, automatic, and cloud-free.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
