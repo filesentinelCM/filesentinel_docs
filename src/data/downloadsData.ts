@@ -12,7 +12,7 @@ export interface DownloadFile {
 export const downloadFiles: Record<string, DownloadFile> = {
   windows: {
     fileName: 'filesentinel-setup-v0.1.0-alpha.exe',
-    filePath: '/downloads/filesentinel-setup-v0.1.0-alpha.exe',
+    filePath: './downloads/filesentinel-setup-v0.1.0-alpha.exe',
     size: '2,79 Mo', // Remplacez par la vraie taille
     sizeBytes: 2936832, // Remplacez par la vraie taille en bytes
     sha256: 'A2F805AD3AE82B79D1EEB37FDEC464090CE4F19BDC2AFFC9F9B87F2F3C01EFBC', // Votre vrai checksum

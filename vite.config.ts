@@ -21,7 +21,7 @@ export default defineConfig(() => {
       watch: process.env.DISABLE_HMR === 'true' ? null : {},
     },
     // ⬇️ AJOUTS POUR GITHUB PAGES ⬇️
-    base: '/filesentinel_docs/', // ⬅️ Remplacez par le nom de votre repo GitHub
+    base: './', // ⬅️ Remplacez par le nom de votre repo GitHub
     build: {
       outDir: 'dist',
       assetsDir: 'assets',
